@@ -1,0 +1,194 @@
+
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  width: 100%;
+  height: 100vh;
+  background-color: #1c0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    border-radius: 12px;
+    display:flex;
+  }
+  
+  .div-img {
+    height: 100%;
+    width: 50%;
+    background-image: url(https://i.pinimg.com/originals/96/a1/2b/96a12bc457b07439b8021d902c549450.jpg);
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+}
+
+h1 >span {
+  color: red;
+}
+.info {
+  width: 50%;
+  height: 100%;
+  background-color: #531013;
+  padding: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+p {
+  letter-spacing: 0.2rem;
+  font-size: 15px;
+  margin-bottom: 25px;
+  color: #683134;
+}
+
+h1 {
+  font-family: Arial;
+  line-height: 30px;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.description-div {
+  height: auto;
+  width: 85%;
+}
+.description {
+  letter-spacing: 0;
+  line-height: 20px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.price {
+  display: flex;
+}
+.new-price {
+  font-weight: bold;
+  font-size: 30px;
+/*   color: #5F161A; */
+  
+}
+
+.old-price {
+  font-size: 12px;
+  position: relative;
+  top: 12px;
+  left: 30px;
+  color: gray;
+  text-decoration: line-through;
+}
+
+.button {
+  display:flex;
+  justify-content: center;
+}
+
+input[type="submit"] {
+/*   background-color: #1c0000; */
+  color: #1c0000;
+  height: 40px;
+  width: 200px;
+  border:none;
+  font-size: 16px;
+  border-radius: 10px;
+  font-family: Arial;
+}
+
+
+@media (max-width: 700px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    display:flex;
+  }
+  
+  .div-img {
+    height: 100%;
+    width: 50%;
+    background-image: url(https://uploads-ssl.webflow.com/627e7e0b122aa30127453552/6294f0c997e25770548cb52d_olena-sergienko-GOVTETevRm8-unsplash.jpg);
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+}
+
+.info {
+  width: 50%;
+  height: 100%;
+/*   background-color: lightpink; */
+  padding: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+p {
+  letter-spacing: 0.2rem;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-family: Arial;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.description-div {
+  height: auto;
+  width: 85%;
+}
+.description {
+  letter-spacing: 0;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.price {
+  display: flex;
+}
+.new-price {
+  font-weight: bold;
+  font-size: 30px;
+  color: #240000;
+  
+}
+
+.old-price {
+  font-size: 12px;
+  position: relative;
+  top: 12px;
+  left: 30px;
+  color: gray;
+  text-decoration: line-through;
+}
+
+.button {
+  display:flex;
+  justify-content: center;
+}
+
+input[type="submit"] {
+  background-color: #2a0000;
+  color: gray;
+  height: 40px;
+  width: 200px;
+  border:none;
+  font-size: 16px;
+  border-radius: 10px;
+  font-family: Arial;
+}
